@@ -6,9 +6,20 @@
 //
 
 #include <iostream>
+#include "machineOne.hpp"
+#include "machineTwo.hpp"
 
-int main(int argc, const char * argv[]) {
+
+using namespace std;
+
+int main() {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    cout << "WELCOME TO MONEY IDLE!!";
+    machineOne m1;
+    m1.setCost();
+    cout << m1;
+    machineTwo m2;
+    m2.setCost();
+    cout << m2;
     return 0;
 }

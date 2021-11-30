@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		1DB6E5832755AB4C00EBCE19 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E5822755AB4C00EBCE19 /* main.cpp */; };
+		1DB6E58B2755BC9500EBCE19 /* Money.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E5892755BC9500EBCE19 /* Money.cpp */; };
+		1DB6E5912755D04900EBCE19 /* machineOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E58F2755D04900EBCE19 /* machineOne.cpp */; };
+		1DB6E5942755D06A00EBCE19 /* machineTwo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E5922755D06A00EBCE19 /* machineTwo.cpp */; };
+		1DB6E5982755D0F300EBCE19 /* cost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E5962755D0F300EBCE19 /* cost.cpp */; };
+		1DB6E59B2756917F00EBCE19 /* machineThree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E5992756917F00EBCE19 /* machineThree.cpp */; };
+		1DB6E59E2756C79B00EBCE19 /* machineCollection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E59C2756C79B00EBCE19 /* machineCollection.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,18 @@
 /* Begin PBXFileReference section */
 		1DB6E57F2755AB4C00EBCE19 /* Unit 11: Final Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Unit 11: Final Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB6E5822755AB4C00EBCE19 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1DB6E5892755BC9500EBCE19 /* Money.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Money.cpp; sourceTree = "<group>"; };
+		1DB6E58A2755BC9500EBCE19 /* Money.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Money.hpp; sourceTree = "<group>"; };
+		1DB6E58F2755D04900EBCE19 /* machineOne.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = machineOne.cpp; sourceTree = "<group>"; };
+		1DB6E5902755D04900EBCE19 /* machineOne.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = machineOne.hpp; path = "Unit 11: Final Project/Machines/machineOne.hpp"; sourceTree = SOURCE_ROOT; };
+		1DB6E5922755D06A00EBCE19 /* machineTwo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = machineTwo.cpp; sourceTree = "<group>"; };
+		1DB6E5932755D06A00EBCE19 /* machineTwo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = machineTwo.hpp; sourceTree = "<group>"; };
+		1DB6E5962755D0F300EBCE19 /* cost.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cost.cpp; sourceTree = "<group>"; };
+		1DB6E5972755D0F300EBCE19 /* cost.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = cost.hpp; sourceTree = "<group>"; };
+		1DB6E5992756917F00EBCE19 /* machineThree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = machineThree.cpp; sourceTree = "<group>"; };
+		1DB6E59A2756917F00EBCE19 /* machineThree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = machineThree.hpp; sourceTree = "<group>"; };
+		1DB6E59C2756C79B00EBCE19 /* machineCollection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = machineCollection.cpp; sourceTree = "<group>"; };
+		1DB6E59D2756C79B00EBCE19 /* machineCollection.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = machineCollection.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +76,28 @@
 			isa = PBXGroup;
 			children = (
 				1DB6E5822755AB4C00EBCE19 /* main.cpp */,
+				1DB6E5892755BC9500EBCE19 /* Money.cpp */,
+				1DB6E58A2755BC9500EBCE19 /* Money.hpp */,
+				1DB6E5962755D0F300EBCE19 /* cost.cpp */,
+				1DB6E5972755D0F300EBCE19 /* cost.hpp */,
+				1DB6E5952755D07F00EBCE19 /* Machines */,
 			);
 			path = "Unit 11: Final Project";
+			sourceTree = "<group>";
+		};
+		1DB6E5952755D07F00EBCE19 /* Machines */ = {
+			isa = PBXGroup;
+			children = (
+				1DB6E59C2756C79B00EBCE19 /* machineCollection.cpp */,
+				1DB6E59D2756C79B00EBCE19 /* machineCollection.hpp */,
+				1DB6E58F2755D04900EBCE19 /* machineOne.cpp */,
+				1DB6E5902755D04900EBCE19 /* machineOne.hpp */,
+				1DB6E5922755D06A00EBCE19 /* machineTwo.cpp */,
+				1DB6E5932755D06A00EBCE19 /* machineTwo.hpp */,
+				1DB6E5992756917F00EBCE19 /* machineThree.cpp */,
+				1DB6E59A2756917F00EBCE19 /* machineThree.hpp */,
+			);
+			path = Machines;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DB6E58B2755BC9500EBCE19 /* Money.cpp in Sources */,
+				1DB6E5942755D06A00EBCE19 /* machineTwo.cpp in Sources */,
+				1DB6E5982755D0F300EBCE19 /* cost.cpp in Sources */,
+				1DB6E5912755D04900EBCE19 /* machineOne.cpp in Sources */,
 				1DB6E5832755AB4C00EBCE19 /* main.cpp in Sources */,
+				1DB6E59B2756917F00EBCE19 /* machineThree.cpp in Sources */,
+				1DB6E59E2756C79B00EBCE19 /* machineCollection.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
