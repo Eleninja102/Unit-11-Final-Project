@@ -22,7 +22,7 @@ public:
     
     
 protected:
-    double moneyAmount;
+    double moneyAmount = 0;
     double moneyPerSecond;
 
     

@@ -35,6 +35,7 @@ int main() {
     cout << "WELCOME TO MONEY IDLE!!\n Refreshs every input\n To access options press O\n Tip: to refresh without buying press 0\n";
     timer t;
     machineCollection mc;
+    mc.setAll();
     options op;
     char xy;
     int end = 1;

@@ -18,7 +18,7 @@ void machineOne::setCost(){
 void machineOne::printMachine(){
     ostream &out = cout;
     setCost();
-    out << "1. " << name;
+    out << number << ". " << name;
     out <<  " M/S: +" << moneyAdder;
     out << " Cost: " << cost1;
     out << " Amount: " << amount;

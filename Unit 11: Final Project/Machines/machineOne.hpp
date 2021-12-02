@@ -15,7 +15,14 @@ using namespace std;
 
 class machineOne{
 public:
-    machineOne();
+    //machineOne();
+    void setALLL(string name1, int amounnt1, double intialCost1, double moneyAdder1, int number1)
+    {name = name1;
+        amount = amounnt1;
+        moneyAdder = moneyAdder1;
+        number = number1;
+        intialCost = intialCost1;
+    }
 
     void setCost();
     void printMachine();
@@ -24,6 +31,7 @@ public:
     double cost1;
     string name;
     int amount;
+    int number;
 
 
     

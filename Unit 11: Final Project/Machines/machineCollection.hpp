@@ -11,6 +11,7 @@
 #include <stdio.h>
 #include "cost.hpp"
 #include "machineOne.hpp"
+/*
 #include "machineTwo.hpp"
 #include "machineThree.hpp"
 #include "machineFour.hpp"
@@ -18,28 +19,30 @@
 #include "machineSix.hpp"
 #include "machineSeven.hpp"
 #include "machineEight.hpp"
-#include "machineNine.hpp"
+#include "machineNine.hpp"*/
 #include "Money.hpp"
 
 
-class machineCollection:public Money{
+class machineCollection:public Money, public machineOne{
 public:
+   // machineCollection();
+    void setAll();
     void printer();
     bool machineAdd(char x);
     void updateMoney(int timeTest);
     double getMoney();
     void setMoney(double money2);
-    
+    double moneyPerSecond2;
     
     machineOne m1;
-    machineTwo m2;
-    machineThree m3;
-    machineFour m4;
-    machineFive m5;
-    machineSix m6;
-    machineSeven m7;
-    machineEight m8;
-    machineNine m9;
+    machineOne m2;
+    machineOne m3;
+    machineOne m4;
+    machineOne m5;
+    machineOne m6;
+    machineOne m7;
+    machineOne m8;
+    machineOne m9;
 
    
 };

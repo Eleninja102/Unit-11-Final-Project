@@ -6,7 +6,22 @@
 //
 
 #include "machineCollection.hpp"
+void machineCollection::setAll(){
+    //(string name1, int amounnt1, double intialCost1, int moneyAdder1, int number1)
 
+    m1.setALLL("machine_1", 0, 0, 0.5, 1);
+    m2.setALLL("machine_2", 0, 10, 2, 2);
+    m3.setALLL("machine_3", 0, 25, 5, 3);
+    m4.setALLL("machine_4", 0, 75, 10, 4);
+    m5.setALLL("machine_5", 0, 102, 20, 5);
+    m6.setALLL("machine_6", 0, 280, 69, 6);
+    m7.setALLL("machine_7", 0, 670, 108, 7);
+    m8.setALLL("machine_8", 0, 1420, 220, 8);
+    m9.setALLL("machine_9", 0, 4269, 420, 9);
+    
+    
+}
+/*
 machineOne::machineOne(){
     name = "Machine_1";
     intialCost = 0;
@@ -60,12 +75,13 @@ machineNine::machineNine(){
     intialCost = 4269;
     amount = 0;
     moneyAdder = 420;
-}
+}*/
 
 
 void machineCollection::printer(){
-    moneyPerSecond = m1.moneyPerSecond() + m2.moneyPerSecond() + m3.moneyPerSecond() + m4.moneyPerSecond() + m5.moneyPerSecond() + m6.moneyPerSecond() + m7.moneyPerSecond() + m8.moneyPerSecond() + m9.moneyPerSecond();
-    cout << "M/S: " << moneyPerSecond << endl;
+   
+    moneyPerSecond2 = m1.moneyPerSecond() + m2.moneyPerSecond() + m3.moneyPerSecond() + m4.moneyPerSecond() + m5.moneyPerSecond() + m6.moneyPerSecond() + m7.moneyPerSecond() + m8.moneyPerSecond() + m9.moneyPerSecond();
+    cout << "M/S: " << moneyPerSecond2 << endl;
     cout << "M: " << moneyAmount << endl;
     
     m1.printMachine();
@@ -164,7 +180,7 @@ bool machineCollection::machineAdd(char x){
 }
 
 void machineCollection::updateMoney(int timeTest){
-    moneyAmount += (moneyPerSecond*timeTest);
+    moneyAmount += (moneyPerSecond2*timeTest);
 }
 
 
