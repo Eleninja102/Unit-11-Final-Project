@@ -160,19 +160,16 @@ bool options::importSave(machineCollection &mic){
         //cout << txt;
         switch (n) {
             case 0:
-                
                 mic.setMoney(stoi(txt));
                 break;
             
             case 1:
-
                 mic.m1.name = txt;
                 break;
             case 2:
-
                 mic.m1.amount = stoi(txt);
                 break;
-            
+    
             case 3:
                 mic.m2.name = txt;
                 break;

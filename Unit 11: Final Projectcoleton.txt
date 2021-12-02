@@ -1,4 +1,4 @@
-0
+1000
 Machine_1
 0
 Machine_2
@@ -6,7 +6,7 @@ Machine_2
 Machine_3
 0
 Machine_4
-0
+20
 Machine_5
 0
 Machine_6

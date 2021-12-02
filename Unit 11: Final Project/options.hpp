@@ -9,7 +9,6 @@
 #define options_hpp
 
 #include <iostream>
-#include <iostream>
 #include <fstream>
 #include "machineCollection.hpp"
 #include "Money.hpp"

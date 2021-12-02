@@ -41,13 +41,13 @@ machineSix::machineSix(){
     name = "Machine_6";
     intialCost = 280;
     amount = 0;
-    moneyAdder = 52;
+    moneyAdder = 69;
 }
 machineSeven::machineSeven(){
     name = "Machine_7";
     intialCost = 670;
     amount = 0;
-    moneyAdder = 100;
+    moneyAdder = 108;
 }
 machineEight::machineEight(){
     name = "Machine_8";
