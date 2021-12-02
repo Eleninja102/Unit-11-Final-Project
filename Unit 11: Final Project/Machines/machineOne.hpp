@@ -16,19 +16,21 @@ using namespace std;
 class machineOne{
 public:
     machineOne();
-    void fileNameSetter();
+
     void setCost();
-    friend ostream &operator <<(ostream &out, const machineOne &s);
+    void printMachine();
+    void addMachine();
+    double moneyPerSecond();
+    double cost1;
+    string name;
+    int amount;
 
 
     
     //machineOne(string name, int cost, int amount, int moneyAdder);
 protected:
     cost c;
-    string name;
     double intialCost;
-    double cost1;
-    int amount;
     double moneyAdder;
     
     

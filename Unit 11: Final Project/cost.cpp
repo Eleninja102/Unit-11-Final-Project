@@ -12,6 +12,6 @@ double cost::costEnd(double intial, int amount){
     //cout << intial;
     //cout << amount;
     
-    return (intial + (amount * 11/10));
+    return (intial + (amount * (amount *21/10)));
 
 }

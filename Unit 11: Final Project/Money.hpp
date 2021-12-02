@@ -16,14 +16,14 @@ using namespace std;
 
 class Money{
 public:
-    Money(int moneyMinus, int moneyPerAdd);
     void printMoney();
+    double getMoney();
     void printMoneySec();
     
     
 protected:
-    int moneyAmount;
-    int moneyPerSecond;
+    double moneyAmount;
+    double moneyPerSecond;
 
     
 private:

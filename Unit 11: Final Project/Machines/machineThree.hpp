@@ -8,6 +8,37 @@
 #ifndef machineThree_hpp
 #define machineThree_hpp
 
-#include <stdio.h>
+
+#include <iostream>
+#include "cost.hpp"
+
+using namespace std;
+
+class machineThree{
+public:
+    machineThree();
+
+    void setCost();
+    void printMachine();
+    void addMachine();
+    double moneyPerSecond();
+    double cost1;
+    string name;
+    int amount;
+
+
+    
+protected:
+    cost c;
+    double intialCost;
+    double moneyAdder;
+    
+    
+private:
+    
+    
+    
+    
+};
 
 #endif /* machineThree_hpp */

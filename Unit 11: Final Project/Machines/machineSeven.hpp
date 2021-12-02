@@ -1,12 +1,12 @@
 //
-//  machineTwo.hpp
+//  machineSeven.hpp
 //  Unit 11: Final Project
 //
-//  Created by Coleton Watt on 11/29/21.
+//  Created by Coleton Watt on 11/30/21.
 //
 
-#ifndef machineTwo_hpp
-#define machineTwo_hpp
+#ifndef machineSeven_hpp
+#define machineSeven_hpp
 
 
 #include <iostream>
@@ -14,9 +14,10 @@
 
 using namespace std;
 
-class machineTwo{
+class machineSeven{
 public:
-    machineTwo();
+    machineSeven();
+
     void setCost();
     void printMachine();
     void addMachine();
@@ -24,7 +25,8 @@ public:
     double cost1;
     string name;
     int amount;
-    
+
+
 protected:
     cost c;
     double intialCost;
@@ -34,9 +36,8 @@ protected:
 private:
     
     
-
+    
     
 };
 
-
-#endif /* machineTwo_hpp */
+#endif /* machineSeven_hpp */

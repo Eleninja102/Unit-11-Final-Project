@@ -13,5 +13,10 @@ void Money::printMoney(){
 }
 
 void Money::printMoneySec(){
+    
     cout << moneyPerSecond;
+}
+
+double Money::getMoney(){
+    return moneyAmount;
 }

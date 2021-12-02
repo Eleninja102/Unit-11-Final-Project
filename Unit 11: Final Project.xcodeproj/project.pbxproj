@@ -14,6 +14,13 @@
 		1DB6E5982755D0F300EBCE19 /* cost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E5962755D0F300EBCE19 /* cost.cpp */; };
 		1DB6E59B2756917F00EBCE19 /* machineThree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E5992756917F00EBCE19 /* machineThree.cpp */; };
 		1DB6E59E2756C79B00EBCE19 /* machineCollection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E59C2756C79B00EBCE19 /* machineCollection.cpp */; };
+		1DB6E5A22756F07400EBCE19 /* options.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E5A02756F07400EBCE19 /* options.cpp */; };
+		1DB6E5A5275722A500EBCE19 /* machineFour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E5A3275722A500EBCE19 /* machineFour.cpp */; };
+		1DB6E5A8275722B800EBCE19 /* machineFive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E5A6275722B800EBCE19 /* machineFive.cpp */; };
+		1DB6E5AB275722CA00EBCE19 /* machineSix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E5A9275722CA00EBCE19 /* machineSix.cpp */; };
+		1DB6E5AE275722DB00EBCE19 /* machineSeven.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E5AC275722DB00EBCE19 /* machineSeven.cpp */; };
+		1DB6E5B1275722EC00EBCE19 /* machineEight.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E5AF275722EC00EBCE19 /* machineEight.cpp */; };
+		1DB6E5B4275722FF00EBCE19 /* machineNine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E5B2275722FF00EBCE19 /* machineNine.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +50,20 @@
 		1DB6E59A2756917F00EBCE19 /* machineThree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = machineThree.hpp; sourceTree = "<group>"; };
 		1DB6E59C2756C79B00EBCE19 /* machineCollection.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = machineCollection.cpp; sourceTree = "<group>"; };
 		1DB6E59D2756C79B00EBCE19 /* machineCollection.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = machineCollection.hpp; sourceTree = "<group>"; };
+		1DB6E5A02756F07400EBCE19 /* options.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = options.cpp; path = "/Users/coletonwatt/Documents/School/School 12th/CS1410/Unit 11/Unit 11: Final Project/Unit 11: Final Project/options.cpp"; sourceTree = "<absolute>"; };
+		1DB6E5A12756F07400EBCE19 /* options.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = options.hpp; sourceTree = "<group>"; };
+		1DB6E5A3275722A500EBCE19 /* machineFour.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = machineFour.cpp; sourceTree = "<group>"; };
+		1DB6E5A4275722A500EBCE19 /* machineFour.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = machineFour.hpp; sourceTree = "<group>"; };
+		1DB6E5A6275722B800EBCE19 /* machineFive.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = machineFive.cpp; sourceTree = "<group>"; };
+		1DB6E5A7275722B800EBCE19 /* machineFive.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = machineFive.hpp; sourceTree = "<group>"; };
+		1DB6E5A9275722CA00EBCE19 /* machineSix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = machineSix.cpp; sourceTree = "<group>"; };
+		1DB6E5AA275722CA00EBCE19 /* machineSix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = machineSix.hpp; sourceTree = "<group>"; };
+		1DB6E5AC275722DB00EBCE19 /* machineSeven.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = machineSeven.cpp; sourceTree = "<group>"; };
+		1DB6E5AD275722DB00EBCE19 /* machineSeven.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = machineSeven.hpp; sourceTree = "<group>"; };
+		1DB6E5AF275722EC00EBCE19 /* machineEight.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = machineEight.cpp; sourceTree = "<group>"; };
+		1DB6E5B0275722EC00EBCE19 /* machineEight.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = machineEight.hpp; sourceTree = "<group>"; };
+		1DB6E5B2275722FF00EBCE19 /* machineNine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = machineNine.cpp; sourceTree = "<group>"; };
+		1DB6E5B3275722FF00EBCE19 /* machineNine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = machineNine.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				1DB6E5822755AB4C00EBCE19 /* main.cpp */,
+				1DB6E5A02756F07400EBCE19 /* options.cpp */,
+				1DB6E5A12756F07400EBCE19 /* options.hpp */,
 				1DB6E5892755BC9500EBCE19 /* Money.cpp */,
 				1DB6E58A2755BC9500EBCE19 /* Money.hpp */,
 				1DB6E5962755D0F300EBCE19 /* cost.cpp */,
@@ -96,6 +119,18 @@
 				1DB6E5932755D06A00EBCE19 /* machineTwo.hpp */,
 				1DB6E5992756917F00EBCE19 /* machineThree.cpp */,
 				1DB6E59A2756917F00EBCE19 /* machineThree.hpp */,
+				1DB6E5A3275722A500EBCE19 /* machineFour.cpp */,
+				1DB6E5A4275722A500EBCE19 /* machineFour.hpp */,
+				1DB6E5A6275722B800EBCE19 /* machineFive.cpp */,
+				1DB6E5A7275722B800EBCE19 /* machineFive.hpp */,
+				1DB6E5A9275722CA00EBCE19 /* machineSix.cpp */,
+				1DB6E5AA275722CA00EBCE19 /* machineSix.hpp */,
+				1DB6E5AC275722DB00EBCE19 /* machineSeven.cpp */,
+				1DB6E5AD275722DB00EBCE19 /* machineSeven.hpp */,
+				1DB6E5AF275722EC00EBCE19 /* machineEight.cpp */,
+				1DB6E5B0275722EC00EBCE19 /* machineEight.hpp */,
+				1DB6E5B2275722FF00EBCE19 /* machineNine.cpp */,
+				1DB6E5B3275722FF00EBCE19 /* machineNine.hpp */,
 			);
 			path = Machines;
 			sourceTree = "<group>";
@@ -157,11 +192,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DB6E5AB275722CA00EBCE19 /* machineSix.cpp in Sources */,
+				1DB6E5A22756F07400EBCE19 /* options.cpp in Sources */,
+				1DB6E5A8275722B800EBCE19 /* machineFive.cpp in Sources */,
+				1DB6E5B4275722FF00EBCE19 /* machineNine.cpp in Sources */,
+				1DB6E5AE275722DB00EBCE19 /* machineSeven.cpp in Sources */,
 				1DB6E58B2755BC9500EBCE19 /* Money.cpp in Sources */,
 				1DB6E5942755D06A00EBCE19 /* machineTwo.cpp in Sources */,
 				1DB6E5982755D0F300EBCE19 /* cost.cpp in Sources */,
+				1DB6E5B1275722EC00EBCE19 /* machineEight.cpp in Sources */,
 				1DB6E5912755D04900EBCE19 /* machineOne.cpp in Sources */,
 				1DB6E5832755AB4C00EBCE19 /* main.cpp in Sources */,
+				1DB6E5A5275722A500EBCE19 /* machineFour.cpp in Sources */,
 				1DB6E59B2756917F00EBCE19 /* machineThree.cpp in Sources */,
 				1DB6E59E2756C79B00EBCE19 /* machineCollection.cpp in Sources */,
 			);

@@ -10,21 +10,38 @@
 
 #include <stdio.h>
 #include "cost.hpp"
+#include "machineOne.hpp"
+#include "machineTwo.hpp"
+#include "machineThree.hpp"
+#include "machineFour.hpp"
+#include "machineFive.hpp"
+#include "machineSix.hpp"
+#include "machineSeven.hpp"
+#include "machineEight.hpp"
+#include "machineNine.hpp"
+#include "Money.hpp"
 
 
-class machineCollection{
+class machineCollection:public Money{
 public:
+    void printer();
+    bool machineAdd(char x);
+    void updateMoney(int timeTest);
+    double getMoney();
+    void setMoney(double money2);
     
     
-    
-protected:
-    cost c;
-    string name;
-    double intialCost;
-    double cost1;
-    int amount;
-    double moneyAdder;
-    
+    machineOne m1;
+    machineTwo m2;
+    machineThree m3;
+    machineFour m4;
+    machineFive m5;
+    machineSix m6;
+    machineSeven m7;
+    machineEight m8;
+    machineNine m9;
+
+   
 };
 
 

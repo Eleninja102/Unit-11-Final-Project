@@ -8,13 +8,6 @@
 #include "machineOne.hpp"
 
 
-machineOne::machineOne(){
-    name = "BOB";
-    intialCost = 0;
-    amount = 0;
-    moneyAdder = 0.5;
-}
-
 void machineOne::setCost(){
     
     cost1 = c.costEnd(intialCost, amount);
@@ -22,13 +15,22 @@ void machineOne::setCost(){
     //cout << cost1;
 }
 
-ostream &operator <<(ostream &out, const machineOne &s){
-    out << "1. " << s.name;
-    out <<  " M/S: +" << s.moneyAdder;
-    out << " Cost: " << s.cost1;
-    out << " Amount: " << s.amount;
+void machineOne::printMachine(){
+    ostream &out = cout;
+    setCost();
+    out << "1. " << name;
+    out <<  " M/S: +" << moneyAdder;
+    out << " Cost: " << cost1;
+    out << " Amount: " << amount;
     out << endl;
     
-    return out;
+}
+
+void machineOne::addMachine(){
+    amount+=1;
     
+}
+
+double machineOne::moneyPerSecond(){
+    return amount * moneyAdder;
 }

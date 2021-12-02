@@ -1,39 +1,35 @@
 //
-//  machineTwo.cpp
+//  machineFive.cpp
 //  Unit 11: Final Project
 //
-//  Created by Coleton Watt on 11/29/21.
+//  Created by Coleton Watt on 11/30/21.
 //
 
-#include "machineTwo.hpp"
+#include "machineFive.hpp"
 
-
-
-void machineTwo::setCost(){
+void machineFive::setCost(){
     
     cost1 = c.costEnd(intialCost, amount);
     
     //cout << cost1;
 }
 
-
-void machineTwo::printMachine(){
+void machineFive::printMachine(){
     ostream &out = cout;
     setCost();
-    out << "2. " << name;
+    out << "5. " << name;
     out <<  " M/S: +" << moneyAdder;
     out << " Cost: " << cost1;
     out << " Amount: " << amount;
     out << endl;
-
     
 }
 
-double machineTwo::moneyPerSecond(){
+void machineFive::addMachine(){
+    amount+=1;
+    
+}
+
+double machineFive::moneyPerSecond(){
     return amount * moneyAdder;
 }
-
-void machineTwo::addMachine(){
-    amount+=1;
-}
-
