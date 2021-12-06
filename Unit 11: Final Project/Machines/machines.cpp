@@ -1,21 +1,21 @@
 //
-//  machineOne.cpp
+//  machines.cpp
 //  Unit 11: Final Project
 //
 //  Created by Coleton Watt on 11/29/21.
 //
 
-#include "machineOne.hpp"
+#include "machines.hpp"
 
 
-void machineOne::setCost(){
+void machines::setCost(){
     
     cost1 = c.costEnd(intialCost, amount);
     
     //cout << cost1;
 }
 
-void machineOne::printMachine(){
+void machines::printMachine(){
     ostream &out = cout;
     setCost();
     out << number << ". " << name;
@@ -26,11 +26,11 @@ void machineOne::printMachine(){
     
 }
 
-void machineOne::addMachine(){
+void machines::addMachine(){
     amount+=1;
     
 }
 
-double machineOne::moneyPerSecond(){
+double machines::moneyPerSecond(){
     return amount * moneyAdder;
 }

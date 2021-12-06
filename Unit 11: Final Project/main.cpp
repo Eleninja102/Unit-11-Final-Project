@@ -10,6 +10,8 @@
 #include "options.hpp"
 #include <time.h>
 #include <chrono>
+#include "achievements.hpp"
+
 
 
 struct timer
@@ -32,19 +34,16 @@ using namespace std;
 
 int main() {
     // insert code here...
-    cout << "WELCOME TO MONEY IDLE!!\n Refreshs every input\n To access options press O\n Tip: to refresh without buying press 0\n";
+    cout << "WELCOME TO MONEY IDLE!!\n\nThe point of this game is to make the most money per second possible\nto do that buy the machine you want by pressing the number next to it.\n Refreshs every input\n To access options press O\n For achievements press A\n Tip: to refresh without buying press 0\n";
     timer t;
     machineCollection mc;
     mc.setAll();
     options op;
+    achievements ach;
     char xy;
     int end = 1;
     while(end != 4){
-        
-        // do something
-        //std::cout << "doing something...\n\tenter a char: " ;
 
-        // if 10 seconds have elapsed, call foo again
         int timeTest = (int)t.seconds_elapsed();
         if(timeTest >= 2 ) { mc.updateMoney(timeTest); t.reset() ; }
     
@@ -56,6 +55,8 @@ int main() {
         if(xy == 'O' || xy == 'o'){
             end = op.runOptions(mc);
             //cout << end;
+        }else if( xy == 'A' || xy == 'a'){
+            ach.showAchiements(mc);
         }else if(xy != '0'){
             bool ifbought = mc.machineAdd(xy);
             string bought =  (ifbought) ? "SUCESS" : "Invalid Balance";

@@ -1,21 +1,21 @@
 //
-//  machineOne.hpp
+//  machines.hpp
 //  Unit 11: Final Project
 //
 //  Created by Coleton Watt on 11/29/21.
 //
 
-#ifndef machineOne_hpp
-#define machineOne_hpp
+#ifndef machines_hpp
+#define machines_hpp
 
 #include <iostream>
 #include "cost.hpp"
 
 using namespace std;
 
-class machineOne{
+class machines{
 public:
-    //machineOne();
+    //machines();
     void setALLL(string name1, int amounnt1, double intialCost1, double moneyAdder1, int number1)
     {name = name1;
         amount = amounnt1;
@@ -35,7 +35,7 @@ public:
 
 
     
-    //machineOne(string name, int cost, int amount, int moneyAdder);
+    //machines(string name, int cost, int amount, int moneyAdder);
 protected:
     cost c;
     double intialCost;
@@ -49,4 +49,4 @@ private:
     
 };
 
-#endif /* machineOne_hpp */
+#endif /* machines_hpp */

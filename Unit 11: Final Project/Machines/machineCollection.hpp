@@ -10,7 +10,7 @@
 
 #include <stdio.h>
 #include "cost.hpp"
-#include "machineOne.hpp"
+#include "machines.hpp"
 /*
 #include "machineTwo.hpp"
 #include "machineThree.hpp"
@@ -23,7 +23,7 @@
 #include "Money.hpp"
 
 
-class machineCollection:public Money, public machineOne{
+class machineCollection:public Money, public machines{
 public:
    // machineCollection();
     void setAll();
@@ -34,15 +34,15 @@ public:
     void setMoney(double money2);
     double moneyPerSecond2;
     
-    machineOne m1;
-    machineOne m2;
-    machineOne m3;
-    machineOne m4;
-    machineOne m5;
-    machineOne m6;
-    machineOne m7;
-    machineOne m8;
-    machineOne m9;
+    machines m1;
+    machines m2;
+    machines m3;
+    machines m4;
+    machines m5;
+    machines m6;
+    machines m7;
+    machines m8;
+    machines m9;
 
    
 };

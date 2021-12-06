@@ -22,7 +22,7 @@ void machineCollection::setAll(){
     
 }
 /*
-machineOne::machineOne(){
+machines::machines(){
     name = "Machine_1";
     intialCost = 0;
     amount = 0;
