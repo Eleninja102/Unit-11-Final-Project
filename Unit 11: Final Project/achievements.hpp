@@ -14,7 +14,7 @@
 
 class achievements: public machineCollection{
 public:
-    void showAchiements(machineCollection &mic);
+    void showAchiements(machineCollection &mic, bool secret);
     
     
 };

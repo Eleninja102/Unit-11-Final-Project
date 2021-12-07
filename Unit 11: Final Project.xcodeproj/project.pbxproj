@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D6807EF275EAA9E00E6700E /* achievements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D6807ED275EAA9E00E6700E /* achievements.cpp */; };
+		1D6807F2275EDEDA00E6700E /* pig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D6807F0275EDEDA00E6700E /* pig.cpp */; };
 		1DB6E5832755AB4C00EBCE19 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E5822755AB4C00EBCE19 /* main.cpp */; };
 		1DB6E58B2755BC9500EBCE19 /* Money.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E5892755BC9500EBCE19 /* Money.cpp */; };
 		1DB6E5912755D04900EBCE19 /* machines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DB6E58F2755D04900EBCE19 /* machines.cpp */; };
@@ -31,6 +32,8 @@
 /* Begin PBXFileReference section */
 		1D6807ED275EAA9E00E6700E /* achievements.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = achievements.cpp; sourceTree = "<group>"; };
 		1D6807EE275EAA9E00E6700E /* achievements.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = achievements.hpp; sourceTree = "<group>"; };
+		1D6807F0275EDEDA00E6700E /* pig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pig.cpp; sourceTree = "<group>"; };
+		1D6807F1275EDEDA00E6700E /* pig.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pig.hpp; sourceTree = "<group>"; };
 		1DB6E57F2755AB4C00EBCE19 /* Unit 11: Final Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Unit 11: Final Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB6E5822755AB4C00EBCE19 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1DB6E5892755BC9500EBCE19 /* Money.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Money.cpp; sourceTree = "<group>"; };
@@ -84,6 +87,8 @@
 				1DB6E58A2755BC9500EBCE19 /* Money.hpp */,
 				1DB6E5962755D0F300EBCE19 /* cost.cpp */,
 				1DB6E5972755D0F300EBCE19 /* cost.hpp */,
+				1D6807F0275EDEDA00E6700E /* pig.cpp */,
+				1D6807F1275EDEDA00E6700E /* pig.hpp */,
 				1DB6E5952755D07F00EBCE19 /* Machines */,
 			);
 			path = "Unit 11: Final Project";
@@ -157,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D6807F2275EDEDA00E6700E /* pig.cpp in Sources */,
 				1DB6E5A22756F07400EBCE19 /* options.cpp in Sources */,
 				1DB6E58B2755BC9500EBCE19 /* Money.cpp in Sources */,
 				1D6807EF275EAA9E00E6700E /* achievements.cpp in Sources */,

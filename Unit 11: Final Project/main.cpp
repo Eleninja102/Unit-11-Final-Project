@@ -11,6 +11,8 @@
 #include <time.h>
 #include <chrono>
 #include "achievements.hpp"
+#include "pig.hpp"
+
 
 
 
@@ -40,7 +42,9 @@ int main() {
     mc.setAll();
     options op;
     achievements ach;
+    pig pg;
     char xy;
+    bool secret = false;
     int end = 1;
     while(end != 4){
 
@@ -56,7 +60,9 @@ int main() {
             end = op.runOptions(mc);
             //cout << end;
         }else if( xy == 'A' || xy == 'a'){
-            ach.showAchiements(mc);
+            ach.showAchiements(mc, secret);
+        }else if( xy == 'P' || xy == 'p'){
+            secret = pg.pigPrint();
         }else if(xy != '0'){
             bool ifbought = mc.machineAdd(xy);
             string bought =  (ifbought) ? "SUCESS" : "Invalid Balance";
