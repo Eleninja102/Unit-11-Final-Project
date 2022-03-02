@@ -69,6 +69,7 @@ int main() {
             cout << bought;
             cout << endl;
         }
+        //printf; '\33c\e[3J';
         //Clear();
         cout << endl;
     }

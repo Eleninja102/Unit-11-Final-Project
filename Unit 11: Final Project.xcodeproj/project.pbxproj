@@ -34,6 +34,7 @@
 		1D6807EE275EAA9E00E6700E /* achievements.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = achievements.hpp; sourceTree = "<group>"; };
 		1D6807F0275EDEDA00E6700E /* pig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pig.cpp; sourceTree = "<group>"; };
 		1D6807F1275EDEDA00E6700E /* pig.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pig.hpp; sourceTree = "<group>"; };
+		1D6B15E927CF3FF000339087 /* Unit 11: Final Project.profdata */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Unit 11: Final Project.profdata"; sourceTree = "<group>"; };
 		1DB6E57F2755AB4C00EBCE19 /* Unit 11: Final Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Unit 11: Final Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB6E5822755AB4C00EBCE19 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1DB6E5892755BC9500EBCE19 /* Money.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Money.cpp; sourceTree = "<group>"; };
@@ -59,11 +60,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D6B15E827CF3FF000339087 /* OptimizationProfiles */ = {
+			isa = PBXGroup;
+			children = (
+				1D6B15E927CF3FF000339087 /* Unit 11: Final Project.profdata */,
+			);
+			path = OptimizationProfiles;
+			sourceTree = "<group>";
+		};
 		1DB6E5762755AB4C00EBCE19 = {
 			isa = PBXGroup;
 			children = (
 				1DB6E5812755AB4C00EBCE19 /* Unit 11: Final Project */,
 				1DB6E5802755AB4C00EBCE19 /* Products */,
+				1D6B15E827CF3FF000339087 /* OptimizationProfiles */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,7 +142,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					1DB6E57E2755AB4C00EBCE19 = {
 						CreatedOnToolsVersion = 13.1;
@@ -290,6 +300,8 @@
 		1DB6E5872755AB4C00EBCE19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YQZJF26P66;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -300,6 +312,8 @@
 		1DB6E5882755AB4C00EBCE19 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YQZJF26P66;
 				ENABLE_HARDENED_RUNTIME = YES;
